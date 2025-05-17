@@ -31,13 +31,13 @@ print(sum)
 # write a program to check input number is prime or not
 
 pnum = int(input("Enter a number"))
-i=1
-while(pnum>0):
-    if(n%i==0 and pnum/pnum==0):
-        print("Number is prime")
+i=2
+while(i>=pnum):
+    if(pnum/i==0):
+        print("Number is not prime")
         break    
     else:
-        print("number is not prime") 
+        print("number is  prime") 
         break   
-
+    i+=1
 
