@@ -91,7 +91,49 @@ while(True):
     elif(ch==10):
         n=int(input("Enter a number"))
         first_digit=0
-        while(n<10):
+        while(n>10):
             n=n//10 
             first_digit=n
-        print(first_digit) 
+        print(f"first digit od the number is = {first_digit}") 
+    elif(ch==11):
+        n=int(input("enter a number"))
+        i=10
+        while(i>=1):
+            print(n,"*",i,"=",n*i)
+            i-=1
+    elif(ch==12):
+        n=int(input("enter a number"))
+        i=1
+        while(i<=n):
+            print("Squre of all number is ",i,"=",i**2)
+            i+=1
+    elif(ch==13):
+        n=int(input("Enter a number"))
+        rev=0
+        i=1
+        temp=n
+        while(n>0):
+            r=n%10
+            rev=r
+            n=n//10
+            print(f"{rev}")
+        print(f"orignal num ={temp}")    
+    elif(ch==14):
+        n=int(input("Enter a number"))
+        i=1
+        while(i<=n):
+            if(i%2==0):
+                print("Even number",i)
+            else:
+                print("odd number",i)
+            i+=1        
+    elif(c==15):
+        print("Even number",i)
+        break
+    else:
+        print("Wrong input")    
+                   
+             
+        
+        
+
