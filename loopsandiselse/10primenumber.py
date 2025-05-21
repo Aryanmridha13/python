@@ -15,6 +15,6 @@ while(i<=n1):
         i+=1    
     n2+=1
 
-    #sequence in paython list touple set frozen set dictiory
+    #sequence python in paython list touple set frozen set dictiory
     #string in paython
     # string i
