@@ -26,5 +26,8 @@ myfun(12)
 
 # types of argument 
 # default argument
+#keyword argument
+#positional argument
+#variable length argument
 
 
