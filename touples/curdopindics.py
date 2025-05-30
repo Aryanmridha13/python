@@ -18,11 +18,23 @@ while(True):
             d[k]=v
         print(d)    
     elif(ch==2):
-        print("read")
+        print(d)
     elif(ch==3):
-        print("update")
+        n = int(input("Enter no of data to update"))
+        for i in range(n):
+            k=input("enter keys")
+            v=input("Enter value")
+            d1={}
+            d[k]=v
+            d.update(d1)
+
+        
     elif(ch==4):
-        print("remove")
+        n=int(input("ENter no of data to remove"))
+
+        for i in range(n):
+            k=input("Enter keys to remove")
+        d.pop(k)
     elif(ch==5):
         print("Exit")
         break
