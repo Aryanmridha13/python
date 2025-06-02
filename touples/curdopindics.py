@@ -2,10 +2,11 @@ d={}
 
 
 while(True):
-    print(''' press 1 to add
+    print('''             press 1 to add
              press 2 to read
              press 3 to update
-            press 4 to remove
+             press 4 to remove
+             press 5 to exit
             ''')
     
     ch=int(input("Enter your choice "))
@@ -34,7 +35,7 @@ while(True):
 
         for i in range(n):
             k=input("Enter keys to remove")
-        d.pop(k)
+            d.pop(k)
     elif(ch==5):
         print("Exit")
         break
